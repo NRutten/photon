@@ -40,7 +40,7 @@ Positioning of the sensors in the prototype is indicated in the images below. Bo
 
 Below a circuit diagram is added which shows how the sensors are connected to the ESP32 modules. The left and right circuits reflect the left and right ESP32 modules respectively. 
 
-![schematics final proto_bb](https://github.com/NRutten/photon/assets/34235736/2564cfb5-ee0e-495c-ae64-5a5b23e3028a)
+![schematics final proto_bb](https://github.com/NRutten/photon/assets/34235736/e57099c4-d646-45e0-a0ae-25bbb1d6fce3)
 
 
 
