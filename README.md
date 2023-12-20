@@ -27,14 +27,20 @@ Each cylinder represents one bulb. Each cylinder contains a collider and has a t
 ![Unity3](https://github.com/NRutten/photon/assets/34235736/ff0b9b90-fd43-44d2-99b8-d4539b8d89db)
 
 Calibrate the position of the cylinders by using the tracker to check the position of the fixture in the real world and moving the "fixture" object to that point.
+When running the Unity scene make sure the ESP32 modules, the fixtures and the pc are all on the same network.
 
 **Electronics**
 The sensor data is gathered by two ESP32 modules (https://www.tinytronics.nl/shop/nl/development-boards/microcontroller-boards/met-wi-fi/esp32-d0wdq6-development-board-met-li-ion-li-po-laadcircuit).
-The sensors collecting the data are a AS5600 magnetic encoder module connected to each ESP32 (https://www.tinytronics.nl/shop/nl/sensoren/magnetisch-veld/as5600-magnetische-hoeksensor-encoder-module) and
+The sensors collecting the data are an AS5600 magnetic encoder module connected to each ESP32 (https://www.tinytronics.nl/shop/nl/sensoren/magnetisch-veld/as5600-magnetische-hoeksensor-encoder-module) and
 a VL6180 time of flight distance sensor connected only to the left ESP32 (https://www.tinytronics.nl/shop/nl/sensoren/afstand/vl6180-time-of-flight-tof-afstandssensor).
-Positioning of the sensors in the prototype is indicated in the images below.
+Positioning of the sensors in the prototype is indicated in the images below. Both ESP32's are powered by 2 AAA batteries each.
+
 ![3](https://github.com/NRutten/photon/assets/34235736/95ab74ff-21d2-4955-b011-51b8cceb1b98)
 ![20231214_184049](https://github.com/NRutten/photon/assets/34235736/863504a6-9362-419c-8233-ed60dc0e0bf5)
+
+Below a circuit diagram is added which shows how the sensors are connected to the ESP32 modules. The left and right circuits reflect the left and right ESP32 modules respectively. 
+
+![schematics final proto_bb](https://github.com/NRutten/photon/assets/34235736/2564cfb5-ee0e-495c-ae64-5a5b23e3028a)
 
 
 
