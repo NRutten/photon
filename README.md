@@ -25,3 +25,16 @@ It also contains a collider, make sure "Is Trigger" is checked.
 Each cylinder represents one bulb. Each cylinder contains a collider and has a tag indicating which bulb it represents. For easy calibration all cylinders share an empty "fixtures" parent.
 
 ![Unity3](https://github.com/NRutten/photon/assets/34235736/ff0b9b90-fd43-44d2-99b8-d4539b8d89db)
+
+Calibrate the position of the cylinders by using the tracker to check the position of the fixture in the real world and moving the "fixture" object to that point.
+
+**Electronics**
+The sensor data is gathered by two ESP32 modules (https://www.tinytronics.nl/shop/nl/development-boards/microcontroller-boards/met-wi-fi/esp32-d0wdq6-development-board-met-li-ion-li-po-laadcircuit).
+The sensors collecting the data are a AS5600 magnetic encoder module connected to each ESP32 (https://www.tinytronics.nl/shop/nl/sensoren/magnetisch-veld/as5600-magnetische-hoeksensor-encoder-module) and
+a VL6180 time of flight distance sensor connected only to the left ESP32 (https://www.tinytronics.nl/shop/nl/sensoren/afstand/vl6180-time-of-flight-tof-afstandssensor).
+Positioning of the sensors in the prototype is indicated in the images below.
+![3](https://github.com/NRutten/photon/assets/34235736/95ab74ff-21d2-4955-b011-51b8cceb1b98)
+![20231214_184049](https://github.com/NRutten/photon/assets/34235736/863504a6-9362-419c-8233-ed60dc0e0bf5)
+
+
+
